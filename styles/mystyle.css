@@ -1,0 +1,155 @@
+
+body{
+	font-family: helvetica;
+	color: #FFFFFF;
+	background-color: #3D2645;
+	display: flex;
+
+}
+
+h1 {
+	position: relative;
+	left: 32%;
+}
+
+.h1{ 
+	position: relative;
+	left: 10%;
+	top: 50%; }
+
+#weather {
+	background-color: #3D2645;
+	width: 50%;
+	padding: 4px;
+	overflow: auto;
+
+}
+
+.weather {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	
+}
+
+.weather > .forecastMoment {
+	width: 96px;
+	margin: 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	background-color: #F0EFF4;
+	border-radius: 6px;
+	color: #444;
+	font-size: 0.8em;
+	display: inline-block;
+	}
+
+.temp {
+	font-weight: bold;
+	color: #0af;
+	font-size: 1.3em;
+}
+
+.memeBox > .meme > img {
+
+	position: static;
+
+	width: 100%;
+	height: auto;
+align-self: center;	font-size: 0.8em;
+	display: block;
+	left: -200px;
+	}
+
+.back{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background-color: #DA4167;
+	border-color: #DA4167;
+	border-radius: 5px;
+	align-self: center;
+	margin-left: 10px;
+	color: white;
+	left: 34%;
+	top: 10%;
+
+}
+
+.button {
+	width: 200px;
+	height: 70px;
+	position: absolute;
+	background-color: #DA4167;
+	border-color: #DA4167;
+	border-radius: 5px;
+	align-self: center;
+	margin-left: 10px;
+	color: white;
+	left: 50%;
+	top: 20%;
+}
+
+.weer {
+	width: 200px;
+	height: 70px;
+	position: absolute;
+	background-color: #DA4167;
+	border-color: #DA4167;
+	border-radius: 5px;
+	margin-right: 10px;
+	align-self: center;
+	color: white;
+	left: 35%;
+	top: 20%;
+
+}
+
+
+
+
+
+.hidden {
+	display: none;
+}
+
+.close {
+	display: inline-block;
+}
+
+
+@media only screen and (max-width: 460px) {
+
+	.button {
+		width: 150px;
+
+	}
+
+	.weer {
+		left: 25%;
+	}
+}
+
+@media only screen and (min-width: 461px) and (max-width: 690px ){
+	.button {
+		width: 200px;
+		left: 55%;
+
+	}
+
+	.weer {
+		left: 15%;
+	}
+}
+
+
+@media only screen and (min-width: 691px) and (max-width: 1024px){
+
+	.button {
+		left: 60%;
+	}
+
+	.weer {
+		left: 25%;
+	}
